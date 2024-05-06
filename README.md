@@ -1,4 +1,4 @@
-# Deploying a Wordpress site on Debian
+# Blocking ping requests with iptables
 
 <!-- hide -->
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/deploying-wordpress-debian/blob/master/js-bg-badge.png"></a>

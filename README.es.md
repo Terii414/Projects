@@ -1,4 +1,4 @@
-# Desplegando un sitio Wordpress en Debian
+# Bloqueando peticiones de ping con iptables
 
 <!-- hide -->
 
