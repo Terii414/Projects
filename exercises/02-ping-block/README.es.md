@@ -6,7 +6,7 @@ Por ejemplo, si haces ping a google.com puedes ver la dirección IP que procesa 
 
 ## 📝 Instrucciones:
 
-1. Verifica que tengas instalado el paquete iptables, de no ser asi instalalo.
+1. Verifica que tengas instalado el paquete iptables, de no ser asi [instalala iptables](https://4geeks.com/es/lesson/intro-a-seguridad-de-linux#instalacion-de-iptables).
 
 2. Crea un regla para bloquear las peticiones de ping entrantes.
 
