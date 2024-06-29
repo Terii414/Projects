@@ -28,7 +28,7 @@ Aprende a cómo usar iptables para bloquear peticiones entrantes por protocolos 
 
 ## Instalación en un clic (recomendado)
 
-Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Codespaces](https://codespaces.new/?repo=4GeeksAcademy/iptables-blocking-practice).
+Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en la nube](https://codespaces.new/?repo=4GeeksAcademy/iptables-blocking-practice).
 
 > Una vez ya tengas abierto VSCode, los ejercicios de LearnPack deberían empezar automáticamente, si esto no sucede puedes intentar empezar los ejercicios escribiendo este comando en tu terminal: `$ learnpack start`
 
@@ -40,22 +40,11 @@ Clona el repositorio en tu ambiente local y sigue los siguientes pasos:
 
 ```bash
 $ npm i learnpack -g
-$ learnpack plugins:install learnpack-html
 ```
 
-2. Descarga estos ejercicios en particular usando LearnPack y luego `cd` para entrar en la carpeta:
+2. Inicializa el tutorial/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra tu archivo learn.json:
 
 ```bash
-$ learnpack download html-forms-tutorial-exercises
-$ cd html-forms-tutorial-exercises
-```
-
-> Nota: Una vez que termines de descargar, encontrarás una carpeta "exercises" que contiene todos los ejercicios.
-
-3. Inicializa el tutorial/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra tu archivo learn.json:
-
-```bash
-$ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 <!-- hide -->
