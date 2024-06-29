@@ -12,7 +12,7 @@
 
 <!-- endhide -->
 
-📝 Instrucciones
+## 📝 Instrucciones
 
 Aprende a cómo usar iptables para bloquear peticiones entrantes por protocolos o puertos. Estas reglas son una importante linea de defensa a la hora de proteger el acceso a un servidor y asegurar el uso correcto de sus recursos
 
@@ -21,8 +21,6 @@ Aprende a cómo usar iptables para bloquear peticiones entrantes por protocolos 
 ### Antes de empezar...
 
 > ¡Te necesitamos! Estos ejercicios se crean y mantienen en colaboración con personas como tú. Si encuentras algún error o falta de ortografía, contribuye y/o repórtalo.
-
-<!-- endhide -->
 
 🌱 ¿Cómo empezar este proyecto?
 
@@ -47,7 +45,6 @@ $ npm i learnpack -g
 ```bash
 $ learnpack start
 ```
-<!-- hide -->
 
 ## Colaboradores
 
