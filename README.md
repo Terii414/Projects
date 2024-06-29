@@ -23,7 +23,7 @@ Learn how to use iptables to block incoming requests by protocols or ports. Thes
 
 ## One click installation (recommended):
 
-You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/deploying-wordpress-debian).
+You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://s.4geeks.com/start?repo=https://github.com/4GeeksAcademy/iptables-blocking-practice).
 
 > Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically, you can try typing on your terminal: `$ learnpack start`
 
@@ -35,7 +35,6 @@ Clone this repository in your local environment ([Clone this repository](https:/
 
 ```bash
 $ npm i @learnpack/learnpack -g
-$ learnpack plugins:install learnpack-node
 ```
 
 2. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
