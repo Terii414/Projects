@@ -23,7 +23,7 @@ Learn how to use iptables to block incoming requests by protocols or ports. Thes
 
 ## One click installation (recommended):
 
-You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://s.4geeks.com/start?repo=https://github.com/4GeeksAcademy/iptables-blocking-practice).
+You can open these exercises in just a few seconds by clicking: [Open in the cloud](https://s.4geeks.com/start?repo=https://github.com/4GeeksAcademy/iptables-blocking-practice).
 
 > Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically, you can try typing on your terminal: `$ learnpack start`
 
