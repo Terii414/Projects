@@ -12,6 +12,5 @@ Por ejemplo, si haces ping a google.com puedes ver la dirección IP que procesa 
 
 ## 💡 Pista:
 
-> - 'iptables' es un comando de root. Aun si lo tienes instalado, solo esta disponible desde la consola de root.
->
-> - Puedes utilizar otra máquina virtual en red NAT o una conexion solo-anfitrion para hacer pruebas de ping y verificar el funcionamiento de la regla.
+- `iptables` es un comando de root. Aun si lo tienes instalado, solo esta disponible desde la consola de root.
+- Puedes utilizar otra máquina virtual en red NAT o una conexion solo-anfitrion para hacer pruebas de ping y verificar el funcionamiento de la regla.
