@@ -2,7 +2,7 @@
 
 This step involves running a verification script to validate what is required in this exercise. Follow these steps:
 
-## 1. Enable the Public Port
+## 1. Enable the Public Port (only if you are running learnpack on the cloud)
 
 For learnpack to receive the information sent from your machine, it is necessary to enable public access to the port, which is private by default for security reasons.
 
@@ -14,7 +14,11 @@ To do this, select the "Ports" tab in the lower panel of codespace. There you wi
 
 Once you have run the script to see it working and added the cron tasks, it's time to validate.
 
-On the desktop of your Debian machine, you will find a folder called `cybersecurity-scripts` and inside, a folder corresponding to the module `02-linux`. Inside this folder, run the script `check-ip-tables.sh` with bash. When you run it, it will ask for the learnpack address, which you can find in the `url.txt` file of this repository.
+On the desktop of your Debian machine, you will find a folder called `cybersecurity-scripts` and inside, a folder corresponding to the module `02-linux`. Inside this folder, run the script `check-ip-tables.sh` with bash. When you run it, it will ask for the learnpack address which is this one:
+
+```txt
+{{publicUrl}}
+```
 
 If everything goes well, you will see a confirmation message in the terminal indicating that the data was sent.
 

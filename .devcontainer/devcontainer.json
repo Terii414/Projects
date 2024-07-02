@@ -20,6 +20,8 @@
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [3001],
+	"appPort": [3001],
+	"postAttachCommand": "gh codespace ports visibility 3000:public -c $CODESPACE_NAME",
 	"portsAttributes": {
 		"3001": {
 		  "label": "node_server",
@@ -30,7 +32,7 @@
 	"onCreateCommand": "npm i -g jest@29.7.0 jest-environment-jsdom@29.7.0 @learnpack/learnpack@2.1.56 && learnpack plugins:install @learnpack/node && npm i",
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postStartCommand": "bash -c .devcontainer/postCreate.sh &"
+	"postStartCommand": "bash -c .devcontainer/postCreate.sh",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
