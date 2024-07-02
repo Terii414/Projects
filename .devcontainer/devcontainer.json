@@ -21,7 +21,7 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [3001],
 	"appPort": [3001],
-	"postAttachCommand": "gh codespace ports visibility 3000:public -c $CODESPACE_NAME",
+	"postAttachCommand": "gh codespace ports visibility 3001:public -c $CODESPACE_NAME",
 	"portsAttributes": {
 		"3001": {
 		  "label": "node_server",
