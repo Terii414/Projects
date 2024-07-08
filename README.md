@@ -21,15 +21,7 @@ Learn how to use iptables to block incoming requests by protocols or ports. Thes
 
 <!-- endhide -->
 
-## One click installation (recommended):
-
-You can open these exercises in just a few seconds by clicking: [Open in the cloud](https://s.4geeks.com/start?repo=https://github.com/4GeeksAcademy/iptables-blocking-practice).
-
-> Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically, you can try typing on your terminal: `$ learnpack start`
-
-## Local Installation
-
-Clone this repository in your local environment ([Clone this repository](https://4geeks.com/how-to/github-clone-repository)) and follow the steps below:
+Clone this repository ([how to clone](https://4geeks.com/how-to/github-clone-repository)) in your [debian virtual machine](https://4geeks.com/docs/start/cybersecurity-virtual-machines#debian-virtual-machine) and follow the steps below:
 
 1. Install LearnPack, the package manager for learning tutorials and the node compiler plugin for learnpack, make sure you also have node.js 14:
 
