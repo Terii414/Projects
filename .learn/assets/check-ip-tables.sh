@@ -33,7 +33,7 @@ if [ ! -z "$2" ]; then
   echo "$data"
 fi
 
-# Guardar los datos en el archivo report.txt
-echo "$data" > report.txt
+# Guardar los datos en el archivo report.json
+echo "$data" > report.json
 
-echo "Data saved to report.txt"
+echo "Data saved to report.json"
