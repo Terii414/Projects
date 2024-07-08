@@ -1,45 +1,35 @@
-# `03` Validate Your Work
+# `03` Validate your work
 
-This step involves running a verification script to validate what is required in this exercise. Follow these steps:
+This step consists of running a verification script to validate what is required in this practice. Follow these steps:
 
-## 1. Enable the Public Port (only if you are running learnpack on the cloud)
+## 1. Run the script
 
-For learnpack to receive the information sent from your machine, it is necessary to enable public access to the port, which is private by default for security reasons.
+On the desktop of your Debian machine, download this file [check-ip-tables.sh](https://github.com/breatheco-de/iptables-blocking-practice/blob/master/.learn/assets/check-ip-tables.sh).
 
-To do this, select the "Ports" tab in the lower panel of codespace. There you will see the ports being used. You need to publish port `3001`. Right-click on the port, go to the `Port Visibility` menu, and select the `Public` option.
+Navigate to the directory where the check-ip-tables.sh script is located. You can use the cd command to change directories. For example, if the script is in the Documents folder, you should run:
 
-![Public Port](../../.learn/assets/public-ports.png)
-
-## 2. Run the Validation Script `check-ip-tables.sh`
-
-Once you have run the script to see it working and added the cron tasks, it's time to validate.
-
-On the desktop of your Debian machine, you will find a folder called `cybersecurity-scripts` and inside, a folder corresponding to the module `02-linux`. Inside this folder, run the script `check-ip-tables.sh` with bash. When you run it, it will ask for the learnpack address which is this one:
-
-```txt
-{{publicUrl}}
+```sh
+cd ~/Documents
 ```
 
-If everything goes well, you will see a confirmation message in the terminal indicating that the data was sent.
+Make the script executable (if it is not already). This can be done using the chmod command:
 
-## 3. Upload Your Results
+```sh
+chmod +x check-ip-tables.sh
+```
 
-Once the script has successfully run, you can upload your results. To do this, generate a commit for this repository and push the changes to GitHub.
+Run the script by specifying the script name. You can also provide any necessary arguments. Assuming no additional arguments are needed for this example, you should run:
 
-The first step is to go to the version control icon and generate a new commit. Add a message and click the `Commit` button.
+```sh
+./check-ip-tables.sh
+```
 
-![Generate Commit](../../.learn/assets/commit.png)
+## 2. Upload your results
 
-You may be prompted to accept adding recent changes to your commit. You can skip this action in the future by selecting the `Always` option.
+Running the script will create a file named report.json that you must upload as the solution to this project.
 
-![Accept Stage Changes](../../.learn/assets/accept-stage.png)
+## 3. Done!
 
-Finally, push the changes from your local instance to GitHub.
+You have now created a NAT network in VirtualBox and connected a Debian virtual machine and a Windows virtual machine to each other using this network. This way, you can experiment with scenarios that test your cybersecurity skills.
 
-![Push Changes](../../.learn/assets/push.png)
-
-## 4. Done!
-
-If you pass the tests, you have created a NAT network in VirtualBox and connected a Debian virtual machine and a Windows virtual machine with this network. This way, you can experiment with scenarios that test your cybersecurity skills.
-
-If you have any problems, don't hesitate to reach out to a mentor or the other support channels offered by 4Geeks.
+If you have any problems, do not hesitate to contact a mentor or the other support channels offered by 4Geeks.
