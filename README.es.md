@@ -22,22 +22,14 @@ Aprende a cómo usar iptables para bloquear peticiones entrantes por protocolos 
 
 > ¡Te necesitamos! Estos ejercicios se crean y mantienen en colaboración con personas como tú. Si encuentras algún error o falta de ortografía, contribuye y/o repórtalo.
 
-🌱 ¿Cómo empezar este proyecto?
+## 🌱 ¿Cómo empezar este proyecto?
 
-## Instalación en un clic (recomendado)
-
-Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en la nube](https://codespaces.new/?repo=4GeeksAcademy/iptables-blocking-practice).
-
-> Una vez ya tengas abierto VSCode, los ejercicios de LearnPack deberían empezar automáticamente, si esto no sucede puedes intentar empezar los ejercicios escribiendo este comando en tu terminal: `$ learnpack start`
-
-## Instalación local:
-
-Clona el repositorio en tu ambiente local y sigue los siguientes pasos:
+Clona este repositorio **en tu [maquina virtual debian](https://4geeks.com/docs/start/cybersecurity-virtual-machines#debian-virtual-machine)** y sigue los siguientes pasos:
 
 1. Instala LearnPack, el package manager para tutoriales de aprendizaje y el HTML compiler plugin para LearnPack, asegúrate también de tener node.js 14+:
 
 ```bash
-$ npm i learnpack -g
+$ npm i @learnpack/learnpack -g
 ```
 
 2. Inicializa el tutorial/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra tu archivo learn.json:
