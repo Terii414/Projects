@@ -16,9 +16,6 @@
 	"projectType": "tutorial",
 	"bugsLink": "https://github.com/learnpack/learnpack/issues/new",
 	"graded": true,
-	"editor": {
-		"version": "3.1.41"
-	},
 	"telemetry": {
 		"batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
 	},
