@@ -24,5 +24,12 @@
   "telemetry": {
     "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
   },
-  "localhostOnly": true
+  "localhostOnly": true,
+	"delivery": {
+		"instructions": {
+			"en": "Please attach your auto-generated report.json file here",
+			"es": "Por favor adjunta tu archivo auto-generado report.json aquí"
+		},
+		"formats": ["application/json"]
+	}
 }
