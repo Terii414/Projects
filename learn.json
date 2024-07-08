@@ -1,30 +1,28 @@
 {
-  "language": "node",
-  "title": {
-    "us": "Blocking ping requests with iptables",
-    "es": "Bloqueando peticiones de ping con iptables"
-  },
-  "slug": "blocking-ping-iptables",
-  "description": {
-    "us": "Learn how to use iptables to block incoming requests by protocol or port",
-    "es": "Aprende a cómo usar iptables para bloquear peticiones entrantes por protocolos o puertos"
-  },
-  "repository": "https://github.com/4GeeksAcademy/iptables-blocking-practice",
-  "duration": 2,
-  "difficulty": "easy",
-  "videoSolutions": true,
-  "preview": "https://raw.githubusercontent.com/4GeeksAcademy/iptables-blocking-practice/master/.learn/assets/preview-iptables.png",
-  "technologies": ["linux", "networks", "cybersecurity", "ciberseguridad"],
-  "projectType": "tutorial",
-  "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
-  "graded": true,
-  "editor": {
-    "version": "3.1.41"
-  },
-  "telemetry": {
-    "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
-  },
-  "localhostOnly": true,
+	"title": {
+		"us": "Blocking ping requests with iptables",
+		"es": "Bloqueando peticiones de ping con iptables"
+	},
+	"description": {
+		"us": "Learn how to use iptables to block incoming requests by protocol or port",
+		"es": "Aprende a cómo usar iptables para bloquear peticiones entrantes por protocolos o puertos"
+	},
+	"repository": "https://github.com/4GeeksAcademy/iptables-blocking-practice",
+	"duration": 2,
+	"difficulty": "beginner",
+	"videoSolutions": true,
+	"preview": "https://raw.githubusercontent.com/4GeeksAcademy/iptables-blocking-practice/master/.learn/assets/preview-iptables.png",
+	"technologies": ["linux", "networks", "redes", "cybersecurity", "ciberseguridad"],
+	"projectType": "tutorial",
+	"bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+	"graded": true,
+	"editor": {
+		"version": "3.1.41"
+	},
+	"telemetry": {
+		"batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
+	},
+	"localhostOnly": true,
 	"delivery": {
 		"instructions": {
 			"en": "Please attach your auto-generated report.json file here",
