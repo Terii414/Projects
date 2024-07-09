@@ -24,7 +24,7 @@ Aprende a cómo usar iptables para bloquear peticiones entrantes por protocolos 
 
 ## 🌱 ¿Cómo empezar este proyecto?
 
-Clona este repositorio **en tu [maquina virtual debian](https://4geeks.com/docs/start/cybersecurity-virtual-machines#debian-virtual-machine)** y sigue los siguientes pasos:
+Clona este repositorio **en la [maquina virtual debian](https://4geeks.com/docs/start/cybersecurity-virtual-machines#debian-virtual-machine)** que hemos venido trabajando durante los proyectos anteriories (o instala una nueva si asi te parece) y sigue los siguientes pasos:
 
 1. Instala LearnPack, el package manager para tutoriales de aprendizaje y el HTML compiler plugin para LearnPack, asegúrate también de tener node.js 14+:
 
