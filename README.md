@@ -21,7 +21,7 @@ Learn how to use iptables to block incoming requests by protocols or ports. Thes
 
 <!-- endhide -->
 
-Clone this repository ([how to clone](https://4geeks.com/how-to/github-clone-repository)) in your [debian virtual machine](https://4geeks.com/docs/start/cybersecurity-virtual-machines#debian-virtual-machine) and follow the steps below:
+Clone this repository ([how to clone](https://4geeks.com/how-to/github-clone-repository)) inside the same [debian virtual machine](https://4geeks.com/docs/start/cybersecurity-virtual-machines#debian-virtual-machine) we have been working during the previous exercises and follow the steps below:
 
 1. Install LearnPack, the package manager for learning tutorials and the node compiler plugin for learnpack, make sure you also have node.js 14:
 
