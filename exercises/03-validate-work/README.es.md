@@ -4,7 +4,7 @@ Este paso es consiste en ejecutar un script de verificación para validar lo sol
 
 ## 1. Ejecuta el script
 
-En el escritorio de tu máquina Debian descarga este archivo [check-ip-tables.sh](https://github.com/breatheco-de/iptables-blocking-practice/blob/master/.learn/assets/check-ip-tables.sh).
+En la carpeta `./.learn/assets/` de este ejercicio vas a conseguir un archivo llamado [check-ip-tables.sh](https://github.com/breatheco-de/iptables-blocking-practice/blob/master/.learn/assets/check-ip-tables.sh).
 
 Navegar al directorio donde se encuentra el script check-ip-tables.sh. Pueden usar el comando cd para cambiar de directorio. Por ejemplo, si el script está en la carpeta Documentos, deben ejecutar:
 
