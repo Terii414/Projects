@@ -4,9 +4,9 @@ This step consists of running a verification script to validate what is required
 
 ## 1. Run the script
 
-On the desktop of your Debian machine, download this file [check-ip-tables.sh](https://github.com/breatheco-de/iptables-blocking-practice/blob/master/.learn/assets/check-ip-tables.sh).
+In the `./.learn/assets/` folder inside these exercises, there is a file called [check-ip-tables.sh](https://github.com/breatheco-de/iptables-blocking-practice/blob/master/.learn/assets/check-ip-tables.sh).
 
-Navigate to the directory where the check-ip-tables.sh script is located. You can use the cd command to change directories. For example, if the script is in the Documents folder, you should run:
+Navigate to the directory where the `check-ip-tables.sh` script is located. You can use the cd command to change directories. For example, if the script is in the Documents folder, you should run:
 
 ```sh
 cd ~/Documents
