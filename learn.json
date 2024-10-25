@@ -12,7 +12,7 @@
 	"difficulty": "beginner",
 	"videoSolutions": true,
 	"preview": "https://raw.githubusercontent.com/4GeeksAcademy/iptables-blocking-practice/master/.learn/assets/preview-iptables.png",
-	"technologies": ["linux", "networks", "redes", "cybersecurity", "ciberseguridad"],
+	"technologies": ["linux", "networks", "redes", "cybersecurity", "ciberseguridad", "ip-tables", "firewalls"],
 	"projectType": "tutorial",
 	"bugsLink": "https://github.com/learnpack/learnpack/issues/new",
 	"graded": true,
