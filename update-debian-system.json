@@ -1,0 +1,3 @@
+{
+  "script": "#!/bin/bash\n# Simple Debian Update Script\necho \"Updating system...\"\nsudo apt update && sudo apt upgrade -y\necho \"Update completed!\""
+}
