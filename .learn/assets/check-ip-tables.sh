@@ -23,7 +23,7 @@ function generar_arreglo_json() {
   echo "[$(IFS=','; echo "${array[*]}")]"
 }
 
-comando="iptables -L INPUT | grep icmp"
+comando="/usr/sbin/iptables -L INPUT | grep icmp"
 iptables_output=$(generar_arreglo_json "$comando")
 
 data='{"iptables":'$iptables_output'}'
