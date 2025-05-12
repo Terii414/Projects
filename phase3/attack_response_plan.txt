@@ -1,0 +1,94 @@
+# Attack Response and Prevention Plan
+
+## 1. SSH Vulnerability Response
+
+### 1.1 Detection Mechanisms
+- Monitor failed login attempts in auth.log
+- Set up alerts for multiple failed SSH attempts
+- Deploy intrusion detection system rules for brute force detection
+- Monitor for unusual login patterns or times
+
+### 1.2 Response Actions
+- Temporarily block source IP addresses using fail2ban
+- Verify SSH configuration for proper security settings
+- Check for unauthorized changes to SSH configuration
+- Review all user accounts for suspicious activity
+- Examine system logs for other compromised services
+
+### 1.3 Prevention Measures
+- Implement key-based authentication only
+- Disable password authentication
+- Disable root login
+- Change default SSH port
+- Implement fail2ban for automated blocking
+- Use strong, unique SSH keys
+- Regular review of authorized keys files
+
+## 2. Web Server Directory Listing Vulnerability
+
+### 2.1 Detection Mechanisms
+- Monitor web server logs for directory traversal attempts
+- Set up alerts for unusual file access patterns
+- Perform regular security scans for web vulnerabilities
+- Monitor for unusual web traffic patterns
+
+### 2.2 Response Actions
+- Block suspicious IP addresses at the firewall
+- Analyze web logs to determine extent of exposure
+- Identify any sensitive information that may have been accessed
+- Verify all web server configurations
+- Check for unauthorized file access
+
+### 2.3 Prevention Measures
+- Disable directory listing in Apache/Nginx configurations
+- Implement proper .htaccess controls
+- Use web application firewalls
+- Regular security audits of web server configuration
+- Implement file access monitoring
+- Remove unnecessary files from web directories
+
+## 3. WordPress File Permission Vulnerability
+
+### 3.1 Detection Mechanisms
+- Monitor wp-config.php access attempts
+- Set up file integrity monitoring
+- Track file permission changes
+- Monitor WordPress admin activities
+
+### 3.2 Response Actions
+- Verify integrity of WordPress files
+- Check database for unauthorized changes
+- Reset all administrative credentials
+- Review plugin and theme integrity
+- Check for backdoors or malicious code
+
+### 3.3 Prevention Measures
+- Set proper file permissions (600 for wp-config.php)
+- Keep WordPress core, themes, and plugins updated
+- Implement WordPress security plugin
+- Use strong, unique admin passwords
+- Limit access to WordPress admin area
+- Regular backups of WordPress installation
+
+## 4. FTP Chroot Vulnerability
+
+### 4.1 Detection Mechanisms
+- Monitor FTP logs for unusual access patterns
+- Track access to directories outside expected paths
+- Set up alerts for FTP authentication failures
+- Monitor for unusual file transfers
+
+### 4.2 Response Actions
+- Terminate suspicious FTP sessions
+- Block suspicious IP addresses
+- Verify FTP server configuration
+- Check for unauthorized file access or modifications
+- Review all FTP user accounts
+
+### 4.3 Prevention Measures
+- Enable chroot_local_user in vsftpd configuration
+- Set allow_writeable_chroot=NO for added security
+- Consider switching to SFTP instead of FTP
+- Implement strong authentication for FTP
+- Regular review of FTP user accounts
+- Limit FTP access to specific IP ranges

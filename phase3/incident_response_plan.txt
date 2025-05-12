@@ -1,0 +1,138 @@
+# Incident Response Plan Based on NIST SP 800-61
+
+## 1. Preparation Phase
+
+### 1.1 Incident Response Team Structure
+- IR Coordinator: Oversees the entire incident response process
+- Technical Lead: Manages forensic investigation and remediation
+- Communications Officer: Handles stakeholder communications
+- Legal Advisor: Ensures compliance with regulations
+- Documentation Specialist: Maintains incident documentation
+
+### 1.2 Required Resources
+- Forensic workstations with analysis tools
+- Network traffic capture equipment
+- Digital evidence preservation tools
+- Secure communication channels
+- Contact information for all stakeholders
+
+### 1.3 Documentation Templates
+- Incident reporting forms
+- Chain of custody documentation
+- Investigation checklists
+- Communication templates
+- Post-incident review forms
+
+## 2. Detection and Analysis Phase
+
+### 2.1 Detection Mechanisms
+- Security monitoring tools (IDS/IPS, SIEM)
+- Log analysis systems
+- File integrity monitoring
+- User behavior analytics
+- Vulnerability scanners
+
+### 2.2 Analysis Procedures
+- Establish a timeline of events
+- Identify affected systems and scope
+- Determine attack vectors
+- Assess impact on critical assets
+- Preserve evidence using forensic methods
+
+### 2.3 Incident Categorization
+- Category 1 (Critical): System breach with data exfiltration
+- Category 2 (High): Active intrusion attempt
+- Category 3 (Medium): Potential security weakness
+- Category 4 (Low): Policy violation
+
+## 3. Containment Phase
+
+### 3.1 Short-term Containment
+- Isolate affected systems from the network
+- Block malicious IP addresses at firewall
+- Disable compromised user accounts
+- Stop affected services temporarily
+- Preserve forensic evidence
+
+### 3.2 Long-term Containment
+- Apply emergency security patches
+- Implement additional access controls
+- Enhance monitoring for similar attacks
+- Deploy additional detection mechanisms
+- Create system backups before remediation
+
+### 3.3 Containment Strategy Selection
+- Consider operational impact of containment
+- Assess potential evidence destruction
+- Evaluate service availability requirements
+- Determine containment effectiveness
+- Document containment decisions
+
+## 4. Eradication Phase
+
+### 4.1 Root Cause Identification
+- Analyze attack vectors and methods
+- Identify exploited vulnerabilities
+- Determine initial access point
+- Map lateral movement within network
+- Document all compromised systems
+
+### 4.2 Malware and Backdoor Removal
+- Scan systems with updated security tools
+- Remove unauthorized accounts and access
+- Eliminate persistence mechanisms
+- Verify integrity of system files
+- Document all removed components
+
+### 4.3 Vulnerability Remediation
+- Apply security patches and updates
+- Correct misconfigurations
+- Update security policies
+- Implement additional security controls
+- Document all remediation actions
+
+## 5. Recovery Phase
+
+### 5.1 System Restoration
+- Validate system integrity before restoration
+- Restore from clean backups if necessary
+- Rebuild systems from trusted media
+- Reset all credentials
+- Document restoration procedures
+
+### 5.2 Security Validation
+- Conduct vulnerability scanning
+- Perform penetration testing
+- Verify security controls are functioning
+- Monitor for signs of persistent threats
+- Document validation results
+
+### 5.3 Return to Operation
+- Implement phased return to production
+- Monitor systems for abnormal activity
+- Validate business process functionality
+- Adjust security controls as needed
+- Document return to operation steps
+
+## 6. Post-Incident Activity
+
+### 6.1 Lessons Learned
+- Conduct post-incident review meeting
+- Document incident timeline and response
+- Identify response gaps and challenges
+- Collect feedback from response team
+- Document findings and recommendations
+
+### 6.2 Improvement Implementation
+- Update incident response procedures
+- Enhance detection mechanisms
+- Implement additional preventive controls
+- Provide additional training as needed
+- Document implemented improvements
+
+### 6.3 Metrics and Reporting
+- Time to detect incident
+- Time to contain incident
+- Time to eradicate threats
+- Time to recover systems
+- Cost of incident and response

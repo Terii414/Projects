@@ -1,0 +1,45 @@
+# Access Control Policy
+
+## 1. Purpose and Scope
+This policy establishes the requirements for controlling access to information and information systems to ensure that access to assets is authorized and appropriate.
+
+## 2. Access Control Principles
+- Access to information shall be granted based on the principle of least privilege
+- Access rights shall be reviewed periodically
+- Default access shall be "deny all" unless specifically authorized
+- Separation of duties shall be implemented for critical functions
+- Access shall be granted based on job roles and responsibilities
+
+## 3. User Access Management
+- Formal user registration and de-registration process shall be implemented
+- Privileged access rights shall be restricted and controlled
+- Regular review of user access rights shall be conducted
+- User credentials shall be managed securely
+- Default passwords shall be changed after first login
+
+## 4. Password Management
+- Passwords must be at least 12 characters long
+- Passwords must contain a combination of uppercase, lowercase, numbers, and special characters
+- Password history shall be maintained to prevent reuse
+- Passwords shall be changed every 90 days
+- Default or temporary passwords must be changed immediately
+
+## 5. Network Access Control
+- Networks shall be segregated based on security requirements
+- Remote access shall require multi-factor authentication
+- Network connections shall be authenticated
+- Access to diagnostic ports shall be controlled
+- Network routing controls shall be implemented
+
+## 6. Application Access Control
+- Information access shall be restricted according to application access control policy
+- Sensitive systems shall have isolated computing environments
+- Access to source code shall be restricted
+- Developer access to production environments shall be limited and logged
+
+## 7. Monitoring and Review
+- Access activities shall be logged and monitored
+- Access violations shall be reported and investigated
+- Regular access reviews shall be conducted
+- Audit trails shall be maintained for all access events
+- Unauthorized access attempts shall be monitored and reported
